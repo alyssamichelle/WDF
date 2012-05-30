@@ -1,0 +1,28 @@
+#dino {
+	width:300px;
+	align:left;
+	margin:10px 50px 10px 400px;
+}
+#about{
+	float:left;
+	margin:0px 50px 10px 400px;
+}
+#download{
+	float:left;
+	clear:right;
+	margin:0px 10px 10px 30px;
+}
+h1{
+	margin:10px 50px 10px 500px;
+
+}
+h2{
+	clear:left;
+	margin:10px 50px 10px 150px;
+}
+h3{
+	margin:100px 0px 0px 400px;
+}
+ol{
+	margin:10px 0px 0px 400px;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>HTML5 Elements | WDF</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<!-- abbr:title attribute may be used to provide an expansion of the abbreviation. -->
+		<p>The <abbr title="Web Hypertext Application Technology Working Group">WHATWG</abbr> started working on HTML5 in 2004.</p>
+
+		<!-- address:represents the contact information -->
+		<address>Jack Osborne</address>
+
+		<!-- b & i :represents a span of text to be stylistically offset from the normal prose without conveying any extra importance. -->
+		<b class="character">Deckard</b>: <i class="voiceover">The report would be routine retirement of a replicant which didn't make me feel any better about shooting a woman in the back. There it was again. Feeling, in myself. For her, for Rachael.</i>
+
+		<!-- code:represents a fragment of computer code. -->
+		<p>Unlike XHTML, in order to start with HTML5 you need to put <code>&lt;!DOCTYPE html&gt;</code> at top of your page.</p> 
+
+		<!-- ins:insert -->
+		<p>My favourite colour is <del datetime="2010-10-11T01:25-07:00">green</del> <ins datetime="2010-10-11T01:25-07:01">red</ins>, but I also like.</p>
+
+		<!-- detail & summary:details element represents a disclosure widget that user can obtain more info, summary being the more info -->
+		<details>
+		        <summary>Name & Extension:</summary>
+		        <p><input type=text name=fn value="Pillar Magazine.pdf">
+		        <p><label><input type=checkbox name=ext checked> Hide extension</label>
+		</details>
+
+		<!-- dfn:defining instance of a term -->
+		<p>While they're essential reading material for our job, the <dfn><abbr title="World Wide Web Consortium">W3C</abbr></dfn> specifications are not exactly George R. R. Martin-level reading material.</p>
+
+		<!-- hr:paragraph level break -->
+		<p>Lorem Ipsum dolor set amet</p>
+			<hr />
+		<p>Lorem Ipsum dolor set amet</p>
+
+		<!-- kbd:represents user input -->
+		<p>Mac users: To take a screenshot press 
+			<kbd><kbd>Command</kbd>+<kbd>Shift</kbd>+<kbd>3</kbd></kbd>
+		</p>
+
+		<!-- mark:used to represents a run of text in one document marked or highlighted because of its relevance -->
+		<p>In this sentence we'll be using the mark element. 
+			<mark>HTML5</mark> Can you see where it has been used?
+		</p>
+
+		<!-- meter:scalar measurement within a known range -->
+		<p>Your score is: 
+			<meter min="0" max="10" value="2"> 2 out of 10 </meter>
+		</p>
+
+		<!-- pre:represents a block of preformatted text, in which structure is represented by typographic conventions rather than by elements. -->
+		<p>The code for a basic JavaScript message is:</p>
+			<pre><script>alert("You need a Chinchilla.");</script>
+		</pre>
+
+		 <!-- samp:represents (sample) output from a program or computing system -->
+		<pre>
+			<samp>mike:mysite mike$ <kbd>git status</kbd>
+			# On branch master
+			nothing to commit (working directory clean)
+			mike:mysite mike$</samp>
+		</pre>
+
+		<!-- small:Represents side comments such as small print. It is not intended to be presentational. -->
+		<small> © copyright HTML5 Doctor. </small>
+
+		<!-- sub & sup: sup element represents a superscript and the sub element represents a subscript. -->
+		<p>H<sub>2</sub>O is the chemical formula for water</p>
+		<p>Today is the 2<sup>nd</sup> of May</p>
+
+		<!-- time:represents a precise date and/or time in the proleptic Gregorian calendar. -->
+		<time datetime="2007-08-29T13:58Z">
+		August 29th, 2007 at 13:58
+		</time>
+
+		<!-- var:represents actual variable in a mathematical expression or programming context, . -->
+		<p><var>E</var> energy is equal to <var>m</var> mass multiplied by the <var>c</var> speed of light, squared.</p>
+	</body>
+</html>

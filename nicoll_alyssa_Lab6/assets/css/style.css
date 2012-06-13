@@ -1,0 +1,38 @@
+/*Global*/
+@font-face {
+  font-family: 'said';
+  src: url('../fonts/thingswesaid.ttf');
+ }
+
+h1 {
+	font-family: said, sans-serif;
+	text-align: center;
+	width: 100%;
+}
+body{
+	max-width: 960px;
+	width: 100%;
+	margin: 0px auto;
+	font-size: 62.5%;
+}
+#doyou{
+	font-size: 3em;
+	float: left;
+}
+#love{
+	font-size: 6em;
+	float: left;
+}
+#alyssa{
+	font-size: 7em;
+	line-heigt: 6em;
+	float: left;
+	clear: left;
+}
+fieldset{
+	width: 50%;
+	clear: left;
+}
+textarea{
+	resize: none;
+}

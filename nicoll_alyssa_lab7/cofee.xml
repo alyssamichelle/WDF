@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<coffee>
+		<latte>
+			<directions>
+					Measure milk into pitcher.
+					Grind enough esspreso for one shot.
+					Start steaming milk.
+					Tamp and press shot, place in machine, start brewing into bottom of cup.
+					Add milk to shot.
+			</directions>
+		</latte>
+		<cappuccino>
+			<directions>				
+				Measure milk into pitcher.
+				Grind enough esspreso for one shot.
+				Start steaming milk.
+				Tamp and press shot, place in machine, start brewing into bottom of cup.
+				Add milk to shot.
+			</directions>
+		</cappuccino>
+		<esspreso>
+			<directions>
+				Measure milk into pitcher.
+				Grind enough esspreso for one shot.
+				Start steaming milk.
+				Tamp and press shot, place in machine, start brewing into bottom of cup.
+				Add milk to shot.
+			</directions>
+		</esspreso>
+		<brewed_coffee>
+			<directions>
+				Measure milk into pitcher.
+				Grind enough esspreso for one shot.
+				Start steaming milk.
+				Tamp and press shot, place in machine, start brewing into bottom of cup.
+				Add milk to shot.
+			</directions>
+		</brewed_coffee>
+	</coffee>

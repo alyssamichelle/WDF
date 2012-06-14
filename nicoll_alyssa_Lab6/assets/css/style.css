@@ -32,6 +32,7 @@ body{
 fieldset{
 	width: 50%;
 	clear: left;
+	font-size: 2em;
 }
 textarea{
 	resize: none;

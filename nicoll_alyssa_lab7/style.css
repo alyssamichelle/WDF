@@ -1,8 +1,61 @@
+
 body{
+	font-size: 62.5%;
 	max-width: 960px;
 	margin: 0px auto;
+	background-color: #ccc;
 	font-family: "Helvetica Neue", san-serif;
 }
-article{
-	text-align: center;
+div{
+	overflow:hidden;
+	padding: 0px 20px;
+	background-color: #fff;
+	width: -webkit-calc(100% - 40px);
 }
+
+h1{
+	margin: 0px;
+	color: #fff;
+	height: 300px;
+	font-size: 7em;
+	font-weight: 100;
+	text-align: center;
+	background: #000 url('chilla.jpg') no-repeat center top;
+}
+h2{
+	clear: left;
+	font-size: 4em;
+	font-weight: 200;
+	border-bottom: 1px solid #bbb;
+}
+article{
+	font-size: 2em;
+	font-weight: 300;
+}
+input[type="submit"]{
+	width: 30%;
+	border: none;
+	margin: 0% 35%;
+	font-size: 3em;
+	margin-top: -50px;
+	padding:  10px 30px;
+	background-color: #eee;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-box-shadow: 1px 1px 3px 1px #bbb;
+	-webkit-box-shadow: 1px 1px 3px 1px #bbb;
+}
+input[type="submit"]:hover{
+	background-color: #aaa;
+}
+
+
+
+
+
+
+
+
+
+
+

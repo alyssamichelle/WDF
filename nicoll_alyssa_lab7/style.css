@@ -32,6 +32,9 @@ article{
 	font-size: 2em;
 	font-weight: 300;
 }
+#last_art{
+	padding-bottom: 50px;
+}
 input[type="submit"]{
 	width: 30%;
 	border: none;

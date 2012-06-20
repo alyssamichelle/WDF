@@ -1,0 +1,88 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	margin: 0px;
+	background: #009fe1;
+}
+
+#container{
+	font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+	color: #777;
+	width: 650px;
+	margin: 0px auto;
+	/*padding: 0px 20px;*/
+	background: url(dw_lab/img/bg_wrapper.png) repeat-y;
+}
+header{
+	background: url(dw_lab/img/bg_header.jpg) repeat-x left top;
+	height: 130px;
+}
+header h1{
+	text-indent: -9999px;
+	padding:0px;
+	margin: 0px;
+}
+nav{
+	font-size: 130%;
+	font-weight: bold;
+	margin: 0px;
+	padding: 10px 20px;
+	background: url(dw_lab/img/bg_nav.jpg) repeat-x left top;
+}
+nav a{
+	color: #fff;
+	text-decoration: none;
+}
+nav a:hover{
+	border-bottom: 1px solid #999;
+}
+nav li{
+	
+	display: inline;
+	padding-right: 2em;
+	list-style: none;
+	font-size: 80%;
+}
+nav ul{
+	padding: 0px;
+	margin: 0px;
+}
+#main{
+	padding: 35px 20px 0px;
+}
+#main h2{
+	color: #00a1e4;
+}
+#content{
+	padding: 0px 10px;
+	width: 350px;
+	float: right;
+}
+#content h2{
+	font-size: 155%;
+	margin: 0px;
+	padding: 0px;
+}
+aside{
+	width: 220px;
+	float: left;
+	background: url(dw_lab/img/divider.jpg) no-repeat top right;
+}
+aside ul{
+	margin: 0px;
+	padding: 0px;
+}
+aside li{
+	list-style: none;
+	margin-bottom: 10px;
+}
+aside img{
+	border: 1px solid #666;
+}
+footer{
+	clear: both;
+	text-align: right;
+	color: #9a9;
+	padding: 15px;
+}
